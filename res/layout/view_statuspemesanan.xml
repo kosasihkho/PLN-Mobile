@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pulsa: "
+                android:textColor="@color/green_normal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/statuspemesanan_pulsa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="100,000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No. Meteran: "
+                android:textColor="@color/green_normal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/statuspemesanan_meteran"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="100,000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanggal: "
+                android:textColor="@color/green_normal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/statuspemesanan_tanggal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="100,000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No. HP: "
+                android:textColor="@color/green_normal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/statuspemesanan_nohp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="100,000" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/statuspemesanan_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:padding="25dp"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+</LinearLayout>

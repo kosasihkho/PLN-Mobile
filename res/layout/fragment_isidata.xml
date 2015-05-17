@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lengkapi Form di Bawah"
+        android:textColor="@color/dark_blue_normal"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/dark_blue_normal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomor Meter"
+        android:textColor="@color/dark_blue_normal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Nomor Handphone"
+        android:textColor="@color/dark_blue_normal" />
+
+    <Button
+        android:id="@+id/isidata_selesai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/btn_rounded_bg_darkblue"
+        android:padding="15dp"
+        android:text="SELESAI"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size" />
+
+</LinearLayout>

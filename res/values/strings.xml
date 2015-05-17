@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PLN Mobile</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="nominal_options">
+        <item>Rp. 20,000</item>
+        <item>Rp. 25,000</item>
+        <item>Rp. 30,000</item>
+        <item>Rp. 40,000</item>
+        <item>Rp. 50,000</item>
+        <item>Rp. 75,000</item>
+        <item>Rp. 100,000</item>
+        <item>Rp. 150,000</item>
+        <item>Rp. 200,000</item>
+        <item>Rp. 250,000</item>
+        <item>Rp. 300,000</item>
+        <item>Rp. 400,000</item>
+        <item>Rp. 500,000</item>
+        <item>Rp. 1,000,000</item>
+    </string-array>
+
+</resources>
