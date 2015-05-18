@@ -7,58 +7,12 @@
     android:orientation="vertical"
     android:padding="15dp" >
 
-    <TextView
+    <ListView
+        android:id="@+id/twitter_list"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Isi Form di Bawah"
-        android:textColor="@color/orange_normal"
-        android:textSize="20dp"
-        android:textStyle="bold" />
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginBottom="25dp"
-        android:layout_marginTop="25dp"
-        android:background="@color/orange_normal" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Nama Lengkap"
-        android:textColor="@color/orange_normal" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:hint="No. Handphone"
-        android:textColor="@color/orange_normal" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:hint="Alamat Email"
-        android:textColor="@color/orange_normal" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:hint="Keterangan Komplain"
-        android:lines="5"
-        android:textColor="@color/orange_normal" />
-
-    <Button
-        android:id="@+id/feedback_send"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:background="@drawable/btn_rounded_bg_orange"
-        android:padding="15dp"
-        android:text="KIRIM"
-        android:textColor="@color/white"
-        android:textSize="@dimen/text_size" />
+        android:layout_height="match_parent"
+        android:divider="@color/full_transparent"
+        android:dividerHeight="1dp" >
+    </ListView>
 
 </LinearLayout>
